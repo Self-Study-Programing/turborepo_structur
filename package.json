@@ -20,6 +20,10 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/react": "^18.0.25",
+    "@types/styled-components": "^5.1.26",
+    "styled-components": "^5.3.6"
+  },
   "packageManager": "yarn@1.22.17"
 }

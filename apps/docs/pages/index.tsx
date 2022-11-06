@@ -4,7 +4,9 @@ export default function Docs() {
   return (
     <div>
       <h1>docs test</h1>
-      <Button />
+      <Button color="white" size="md" disable={true}>
+        test
+      </Button>
     </div>
   );
 }
