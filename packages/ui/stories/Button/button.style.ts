@@ -13,7 +13,7 @@ export const ButtonBox = styled.div<{
 
   border-radius: 5px;
 
-  cursor: ${({ disable }) => (disable ? "not-allowed" : "pointer")};
+  cursor: ${({ disable = false }) => (disable ? "not-allowed" : "pointer")};
   ${({ color }) => colorStyle[color]}
   ${({ size }) => sizeStyle[size]}
 `;
